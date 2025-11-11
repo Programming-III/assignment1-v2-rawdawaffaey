@@ -90,12 +90,13 @@ using namespace std;
   int main(){
   Person p1(rawda,16009445);
    Student s1(2,cs);
+    Student s2(2,cs);
    Instructor i1(informatics,6);
    Course c1(c104,cs,4,students);
    p1.display();
    s1.display();
    c1.display();
-  
+  c1.addStudents(s2);
   
   
   return 0;}
