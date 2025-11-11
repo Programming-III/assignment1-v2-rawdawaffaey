@@ -3,7 +3,19 @@
 
 #include <string>
 using namespace std;
+class Person 
 
+{
+private:
+    string name;
+    int id;
+public:
+   Person(string name,int id); 
+   display();
+   ~Person; 
+        
+};
+#endif
 //#write Person class here
 
 
