@@ -4,6 +4,19 @@
 #include "Person.h"
 #include <string>
 #using namespace std;
+class Student : Person 
+{
+private:
+    int yearLevel;
+    string major;
+public:
+   Student(int yearLevel,string major) : Person(string name,int id); 
+    display();
+    ~Student;
+};
+
+
+#endif 
 //#write student class here
 
 
